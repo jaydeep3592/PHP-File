@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://localhost:8000/customer/edit/1 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Document_files/bootstrap.css">
+    <link rel="stylesheet" href="./Document_files/bootstrap-icons.min.css">
+</head>
+<body data-new-gr-c-s-check-loaded="14.1191.0" data-gr-ext-installed="">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="http://localhost:8000/customer/edit/1#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="http://localhost:8000/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:8000/products">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:8000/products/new">New Arrivals</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://localhost:8000/customer/edit/1#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Customer
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="http://localhost:8000/customer/add">Add Customer</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="http://localhost:8000/customer">View Customets</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-danger" type="submit">Search</button>
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="http://localhost:8000/customer/edit/1#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:8000/customer/edit/1#">Register</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://localhost:8000/customer/edit/1#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Welcome User
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="http://localhost:8000/customer/edit/1#"><i class="bi bi-person-fill"></i> Profile</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="http://localhost:8000/customer/edit/1#"><i class="bi bi-cart-fill"></i> My Cart</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="http://localhost:8000/customer/edit/1#"><i class="bi bi-list"></i> My Orders</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="http://localhost:8000/customer/edit/1#"><i class="bi bi-box-arrow-left"></i> LogOut</a></li>
+              </ul>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </nav>    
+    <div class="container">
+            <div class="container mt-5">
+        
+        
+
+        <div class="card">
+            <div class="card-header">
+                <h1>Edit Customer
+                  <a type="button" class="btn btn-info btn-lg float-end" href="http://localhost:8000/customer">View Customers</a>
+                </h1><hr>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col">
+                        <img src="./Document_files/img_1.jpg" class="img-fluid"> 
+                    </div>
+                    <div class="col">
+                        <form method="post" action="http://localhost:8000/customer/update/1">
+                            <input type="hidden" name="_token" value="c1hTbdvDLXrsRgEQHqW2usj9RIVruN9Dfi6XJPBK" autocomplete="off">                            <input type="hidden" name="_method" value="PUT">;
+                            <div class="row">
+                                <div class="mb-3 col-6">
+                                    <label for="" class="form-label"><b>Name</b></label>
+                                    <input type="text" name="name" value="JAYDEEP" class="form-control">
+                                </div>
+                                <div class="mb-3 col-6">
+                                    <label for="" class="form-label"><b>Email</b></label>
+                                    <input type="text" name="email" value="jaydeepkachhot3592@gmail.com" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="mb-3 col-6">
+                                    <label for="" class="form-label"><b>Mobile</b></label>
+                                    <input type="number" name="mobile" value="9773007902" class="form-control">
+                                </div>
+                                <div class="mb-3 col-6">
+                                    <label for="" class="form-label"><b>DOB</b></label>
+                                    <input type="date" name="dob" value="2024-08-13" class="form-control">
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label"><b>Gender</b></label>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="gender" value="M" checked="">
+                                    <label class="form-check-label" for="">Male</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="gender" value="F">
+                                    <label class="form-check-label" for="">Female</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="gender" value="O">
+                                    <label class="form-check-label" for="">Other</label>
+                                </div>
+                            </div>
+                     
+                            <div class="mb-3 ">
+                                <label for="" class="form-label"><b>Address</b></label>
+                                <textarea name="address" class="form-control">keshod</textarea>
+                            </div>
+                            <div class="d-grid gap-2">
+                                <button type="submit" name="" class="btn btn-primary">
+                                    Update
+                                </button>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    </div>
+
+<script src="./Document_files/popper.min.js.download"></script>
+<script src="./Document_files/bootstrap.js.download"></script>
+
+  
+ </body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;limited&quot;,&quot;isActive&quot;:false,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
