@@ -32,8 +32,6 @@
         <form class="d-flex" role="search" action="{{url('/customer')}}">
           <input class="form-control me-2" type="search" name="search" value="{{Request::get('search')}}" placeholder="Search">
           <button class="btn btn-danger" type="submit">Search</button>
-
-          
         </form>
       </div>
     </div>
