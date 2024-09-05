@@ -33,28 +33,7 @@
           <input class="form-control me-2" type="search" name="search" value="{{Request::get('search')}}" placeholder="Search">
           <button class="btn btn-danger" type="submit">Search</button>
 
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Register</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Welcome User
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#"><i class="bi bi-person-fill"></i> Profile</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#"><i class="bi bi-cart-fill"></i> My Cart</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#"><i class="bi bi-list"></i> My Orders</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#"><i class="bi bi-box-arrow-left"></i> LogOut</a></li>
-              </ul>
-            </li>
-          </ul>
+          
         </form>
       </div>
     </div>
