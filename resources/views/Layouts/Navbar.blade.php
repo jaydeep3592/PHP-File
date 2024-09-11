@@ -16,14 +16,20 @@
             <a class="nav-link" href="{{url('/products/new')}}">New Arrivals</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{-- <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Customer
-            </a>
-            <ul class="dropdown-menu">
+            </a> --}}
+            <li class="nav-item">
+              <a class="nav-link" href="{{url('customer/add')}}">Add Customer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{url('customer')}}">View Customer</a>
+            </li>
+            {{-- <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="{{url('customer/add')}}">Add Customer</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="{{url('customer')}}">View Customets</a></li>
-            </ul>
+            </ul> --}}
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{url('/file')}}">File Upload</a>
